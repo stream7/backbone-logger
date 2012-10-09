@@ -61,7 +61,7 @@
     function Logger(namespace) {
       this.namespace = namespace
       this.descendants = [];
-      this.forbiddenProperties = ['model'];      
+      this.forbiddenProperties = ['model', 'comparator'];      
     }
 
     Logger.prototype.findDescendants = function(namespace) {
